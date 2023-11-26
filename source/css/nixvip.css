@@ -161,3 +161,29 @@ footer {
     transform: translate(-10px, -10px);
   }
 }
+
+@media screen and (max-width: 650px) {
+    .social-items {
+        padding: 1rem;
+    }
+    .social {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .header-info h1 {
+        font-size: 60px;
+    }
+    
+    .header-info p {
+        font-size: 20px;
+        margin-top: -1rem;
+    }
+    .social-items {
+        padding: 0.5rem;
+    }
+    .social {
+        grid-template-columns: repeat(2, 0.5fr);
+    }
+}
