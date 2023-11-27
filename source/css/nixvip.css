@@ -45,18 +45,6 @@ header {
     text-shadow: -1px -1px 0 #000000e1, 1px -1px 0 #000000e1, -1px 1px 0 #000000e1, 1px 1px 0 #000000e1;
 }
 
-/* .header-info a {
-    display: block;
-    width: 80px;
-    margin-top: 2rem;
-    margin-left: auto;
-    margin-right: auto;
-    background-color: #fff;
-    color: black;
-    padding: 0.5rem 1rem;
-    text-decoration: none;
-} */
-
 .social {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
