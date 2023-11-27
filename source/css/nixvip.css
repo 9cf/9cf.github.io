@@ -60,8 +60,8 @@ header {
 
 .header-info {
     text-align: center;
-    width: 660px;
-    height: 300px;
+    justify-content: center;
+    align-items: center;
     /* border: 1px solid red; */
 }
 
