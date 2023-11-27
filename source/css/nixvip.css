@@ -86,7 +86,7 @@ footer {
 .arrow,
 .arrow:before {
   position: absolute;
-  left: 49.99%;
+  left: 50%;
 }
 
 .arrow {
