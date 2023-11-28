@@ -137,8 +137,14 @@ footer p {
 }
 
 @media screen and (max-width: 650px) {
+    header {
+        min-height: 49vh;
+        height: 49vh;
+    }
     .social-items {
         grid-template-columns: repeat(2, 1fr);
+        min-height: 45vh;
+        height: 45vh;
     }
     .social-items2 {
         padding: 1rem;
