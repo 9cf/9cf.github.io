@@ -29,12 +29,14 @@ header {
 }
 
 .font1 {
+    /* border: 1px solid red; */
     font-size: 4.5rem;
     font-weight: bold;
     text-shadow: -1px -1px 0 #000000e1, 1px -1px 0 #000000e1, -1px 1px 0 #000000e1, 1px 1px 0 #000000e1;
 }
 
 .font2 {
+    /* border: 1px solid red; */
     font-size: 1.2rem;
     text-shadow: -1px -1px 0 #000000e1, 1px -1px 0 #000000e1, -1px 1px 0 #000000e1, 1px 1px 0 #000000e1;
 }
@@ -99,30 +101,31 @@ footer p {
 }
 
 .arrow {
-  width: 40px;
-  height: 40px;
-  top: 40%;
-  margin: -20px 0 0 -20px;
-  transform: rotate(45deg);
-  border-left: none;
-  border-top: none;
-  border-right: 2px #fff solid;
-  border-bottom: 2px #fff solid;
+    /* border: 1px solid red; */
+    width: 40px;
+    height: 40px;
+    top: 40%;
+    margin: -20px 0 0 -20px;
+    transform: rotate(45deg);
+    border-left: none;
+    border-top: none;
+    border-right: 2px #fff solid;
+    border-bottom: 2px #fff solid;
 }
 
 .arrow:before {
-  content: "";
-  width: 20px;
-  height: 20px;
-  top: 50%;
-  margin: -10px 0 0 -10px;
-  border-left: none;
-  border-top: none;
-  border-right: 1px #fff solid;
-  border-bottom: 1px #fff solid;
-  animation-duration: 2s;
-  animation-iteration-count: infinite;
-  animation-name: arrow;
+    content: "";
+    width: 20px;
+    height: 20px;
+    top: 50%;
+    margin: -10px 0 0 -10px;
+    border-left: none;
+    border-top: none;
+    border-right: 1px #fff solid;
+    border-bottom: 1px #fff solid;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-name: arrow;
 }
 
 @keyframes arrow {
@@ -156,7 +159,7 @@ footer p {
     footer p {
         /* border: 1px solid red; */
         text-align: center;
-        font-size: .9rem;
+        font-size: .8rem;
         color: rgba(255, 255, 255, 0.495);
         text-shadow: -1px -1px 0 #000000e1, 1px -1px 0 #000000e1, -1px 1px 0 #000000e1, 1px 1px 0 #000000e1;
         
