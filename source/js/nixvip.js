@@ -11,5 +11,3 @@ function disableselect(e) {
     document.onmousedown = disableselect;
     document.onmouseup = reEnable;
   }
-
-  
