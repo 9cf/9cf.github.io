@@ -35,7 +35,7 @@ function disableselect(e) {
       playerCounter.innerHTML = `( ออนไลน์ `+(data.players.online)+` คน )`;
   
       const addServer = document.getElementById("add-server");
-      addServer.innerHTML = `<a href="minecraft:?addExternalServer=Nixvip|nixvip.giize.com:19132" ><button class="button"><i class="fa fa-plus-circle" aria-hidden="true"></i> เพิ่มเซิฟเวอร์</button></a>`;
+      addServer.innerHTML = `<a href="minecraft:?addExternalServer=Nixvip|server.2RD.top:19132" ><button class="button"><i class="fa fa-plus-circle" aria-hidden="true"></i> เพิ่มเซิฟเวอร์</button></a>`;
     } 
 }
   
